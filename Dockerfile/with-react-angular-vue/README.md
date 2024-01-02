@@ -1,4 +1,4 @@
-# Static Application Deployment with Docker and Nginx (with React, Angular, Vue)
+# Dockerize static application (React, Angular, Vue + Nginx)
 
 This project is a template for deploying static applications with Docker and Nginx. It is intended to be used as a starting point for deploying React, Angular, or Vue applications.
 
@@ -116,7 +116,7 @@ server {
 
 ## 4. Contributing
 
-To contribute to this project, please see the [contributing guidelines](../../CONTRIBUTING.md).
+To contribute to this project, please see the [contributing guidelines](../../.github/CONTRIBUTING.md).
 
 <a id="license"></a>
 

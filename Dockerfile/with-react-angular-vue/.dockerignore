@@ -1,0 +1,38 @@
+# Ignore everything
+**
+
+# But not these files...
+!Dockerfile
+!.dockerignore
+!*.md
+
+# Source code
+!src/
+!public/
+
+# Configuration files
+!package.json
+!package-lock.json
+!vite.config.js
+
+# Ignore specific directories
+node_modules/  # Node modules
+dist/           # Build output
+.idea/          # JetBrains IDE settings
+.vscode/        # VS Code settings
+.git/           # Git internals
+.gitignore      # Git ignore rules
+.github/        # GitHub settings
+
+# Ignore specific files
+*.log           # Logs
+*.iml           # JetBrains module files
+*.suo           # User Option settings for Visual Studio
+*.ntvs*         # Node.js tools for Visual Studio
+*.njsproj       # Node.js project file
+*.sln           # Visual Studio Solution file
+*.sw?           # Vim swap files
+
+# Ignore environment files
+.env.local
+.env.*.local
