@@ -32,6 +32,8 @@
 <a id="docker-terminology"></a>
 
 ### 1.2. Docker Terminology
+<details>
+  <summary>Click me</summary>
 
 | Term              | Description                                                                                                                                                         |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,6 +48,7 @@
 | Docker Engine     | The runtime that runs and manages containers on a host machine. It's the core of Docker and it consists of a server, a REST API and a command line interface (CLI). |
 | Docker Volume     | Provides persistent storage for Docker containers, managing data beyond the container's lifecycle and enabling data persistence.                                    |
 | Docker Network    | Enables communication among Docker containers and between containers and the host, providing networking and connectivity.                                           |
+</details>
 
 <a id="dockerfile"></a>
 
@@ -60,7 +63,9 @@ A Dockerfile is a text file that contains all the commands or instructions neede
 <a id="dockerfile-instructions"></a>
 
 ### 2.2. Dockerfile Instructions
-
+<details>
+  <summary>Click me</summary>
+  
 | Instruction      | Description                                                                                                                               |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | FROM             | Specifies the base image for the Docker image                                                                                             |
@@ -73,12 +78,14 @@ A Dockerfile is a text file that contains all the commands or instructions neede
 | ARG              | Defines a variable that users can pass at build-time to the builder with the docker build command                                         |
 | USER             | Sets the user name or UID to use when running the image and for any RUN, CMD and ENTRYPOINT instructions that follow it in the Dockerfile |
 | VOLUME           | Creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers     |
+</details>
 
 <a id="dockerfile-examples"></a>
 
 ### 2.3. Dockerfile Examples
 
 - [Dockerize static application (React, Angular, Vue + Nginx)](/Dockerfile/with-react-angular-vue/README.md)
+- [Dockerize Next.js application](/Dockerfile/with-nextjs/README.md)
 
 <a id="docker-compose"></a>
 
