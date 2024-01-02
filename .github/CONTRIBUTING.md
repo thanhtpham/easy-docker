@@ -1,4 +1,4 @@
-# Contributing to This Project
+# Contributing to Easy Docker
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -10,7 +10,7 @@ We love your input! We want to make contributing to this project as easy and tra
 
 ## Contributor Covenant Code of Conduct
 
-We have adopted the Contributor Covenant as our code of conduct, and we expect project participants to adhere to it. Please read [the full text](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) so that you can understand what actions will and will not be tolerated.
+We have adopted the Contributor Covenant as our code of conduct, and we expect project participants to adhere to it. Please read [the full text](./CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
 ## How to Contribute
 
@@ -20,4 +20,3 @@ We have adopted the Contributor Covenant as our code of conduct, and we expect p
 4. Push your changes to your fork
 5. Submit a pull request to the project repository for review
 
-Please note that this project is released with a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/). By participating in this project you agree to abide by its terms.

@@ -29,7 +29,7 @@
 
 ## 4. Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for more information.
+Contributions are welcome! Please read [full text](/.github/CONTRIBUTING.md) for more information.
 
 <a id="license"></a>
 
