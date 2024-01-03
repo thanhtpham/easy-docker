@@ -1,0 +1,34 @@
+# Ignore specific directories
+node_modules/  # Node modules
+dist/           # Build output
+.idea/          # JetBrains IDE settings
+.vscode/        # VS Code settings
+.git/           # Git internals
+.gitignore      # Git ignore rules
+.github/        # GitHub settings
+
+# Ignore specific files
+*.log           # Logs
+*.iml           # JetBrains module files
+*.suo           # User Option settings for Visual Studio
+*.ntvs*         # Node.js tools for Visual Studio
+*.njsproj       # Node.js project file
+*.sln           # Visual Studio Solution file
+*.sw?           # Vim swap files
+*.md
+
+# Ignore environment files
+.env.local
+.env.*.local
+
+# Ignore docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore other
+.prettierrc
+.prettierignore
+.eslintignore
+.eslintrc.js
+commitlint.config.js
