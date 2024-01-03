@@ -16,11 +16,10 @@ RUN npm run build \
 # Production stage
 FROM node:20-alpine as production-stage
 LABEL author="Thanh Pham <thanhtpham99@gmail.com>"
+ENV NODE_ENV=production
 WORKDIR /app
 COPY --from=build-stage /app/package*.json ./
-COPY --from=build-stage /app/.next ./.next
-COPY --from=build-stage /app/public ./public
+COPY --from=build-stage /app/dist  ./dist 
 COPY --from=build-stage /app/node_modules ./node_modules
-ENV NODE_ENV=production
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD [ "node", "dist/main.js" ]
